@@ -28,8 +28,8 @@
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
 </head>
@@ -360,7 +360,7 @@
             <div class="row">
                 <div class="col-sm-3">
                     <div class="team-member">
-                        <img src="img/team/AnhV.jpg" class="img-responsive img-circle" alt="">
+                        <img id='vu-anh' src="" class="img-responsive img-circle" alt="">
                         <h4>BrotherRain</h4>
                         <p class="text-muted">Team Leader</p>
                         <ul class="list-inline social-buttons">
@@ -375,7 +375,7 @@
                 </div>
                 <div class="col-sm-3">
                     <div class="team-member">
-                        <img src="img/team/TuanLm.jpg" class="img-responsive img-circle" alt="">
+                        <img id='tuanlm' src="" class="img-responsive img-circle" alt="">
                         <h4>Le Minh Tuan</h4>
                         <p class="text-muted">Team Leader</p>
                         <ul class="list-inline social-buttons">
@@ -390,7 +390,7 @@
                 </div>
                 <div class="col-sm-3">
                     <div class="team-member">
-                        <img src="img/team/BachDuong.jpg" class="img-responsive img-circle" alt="">
+                        <img id='bach-duong' src="" class="img-responsive img-circle" alt="">
                         <h4>Bach Duong</h4>
                         <p class="text-muted">UI/UX Developer</p>
                         <ul class="list-inline social-buttons">
@@ -405,7 +405,7 @@
                 </div>
                 <div class="col-sm-3">
                     <div class="team-member">
-                        <img src="img/team/HungViet.jpg" class="img-responsive img-circle" alt="">
+                        <img id='hung-viet' src="" class="img-responsive img-circle" alt="">
                         <h4>Hung Viet Nguyen</h4>
                         <p class="text-muted">BackEnd Developer</p>
                         <ul class="list-inline social-buttons">
@@ -711,8 +711,13 @@
         </div>
     </div>
 
+    <div class="modal"><!-- Place at bottom of page --></div>
+
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- PreLoading-->
+    <script src="js/preloading.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
@@ -726,6 +731,10 @@
 
     <!-- Theme JavaScript -->
     <script src="js/agency.min.js"></script>
+
+    <!-- Load Image Team-->
+    <script src="js/get_profile_picture.js"></script>
+
 
 </body>
 
